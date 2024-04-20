@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type="file"], input[type="checkbox"] {
+    margin: 10px 5px;
+}
+
+button {
+    cursor: pointer;
+}

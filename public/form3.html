@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Simple</title>
+    <link rel="stylesheet" href="form3.css">
+</head>
+<body>
+    <form id="uploadForm" onsubmit="return checkAndDisplayImage();">
+        <label for="imageUpload">Upload an image:</label>
+        <input type="file" id="imageUpload" accept="image/*" required>
+        <label for="clearImages">
+            <input type="checkbox" id="clearImages"> Clear
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+
+    <img id="displayedImage" style="width: 70%; margin: 10px auto; display: block;">
+
+    <section id="previousImages" style="text-align: center;"></section>
+
+    <script src="form3script.js" defer></script>
+</body>
+</html>
